@@ -1,0 +1,29 @@
+.container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .circle-container {
+            position: relative;
+        }
+
+        .circle {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            position: absolute;
+            mix-blend-mode: multiply;
+        }
+
+        .red-circle {
+            background-color: red;
+            right: -25px;
+        }
+
+        .green-circle {
+            background-color: green;
+            left: -25px;
+            /* Reduced the distance for closer overlap */
+        }
